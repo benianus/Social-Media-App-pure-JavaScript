@@ -85,19 +85,19 @@ function addTags(tags) {
 function isProfileImageEmpty(profileImage) {
   return JSON.stringify(profileImage) == "{}"
     ? "./profile_pics/profile_placeholder.jpg"
-    : profileImage;
+    : "./profile_pics/profile_placeholder.jpg";
 }
 
 function isUserProfileImageEmpty(profileImage) {
   return JSON.stringify(profileImage) == "{}"
     ? "./profile_pics/profile_placeholder.jpg"
-    : profileImage;
+    : "./profile_pics/profile_placeholder.jpg";
 }
 
 function isPostImageEmpty(postImage) {
   return JSON.stringify(postImage) == "{}"
     ? "./posts_placeholder/post_placeholder.png"
-    : "";
+    : "./posts_placeholder/post_placeholder.png";
 }
 
 async function login() {
