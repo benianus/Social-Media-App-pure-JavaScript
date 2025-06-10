@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.unClickedCard {
+    cursor: default;
+}
+
+.navigation {
+    position: fixed;
+    z-index: 1;
+}
+
+#liveAlertPlaceholder {
+    bottom: 0%;
+    right: 1%;
+    position: fixed;
+    width: 25%;
+    z-index: 1;
+}
+
+.addPost-btn {
+    background-color: rgb(83, 83, 156);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    border: none;
+    cursor: pointer;
+    transition: all 100ms;
+    box-shadow: 1px 3px 3px rgb(117, 116, 116);
+}
+
+.pageTop-btn {
+    background-color: rgb(83, 83, 156);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    border: none;
+    cursor: pointer;
+    transition: all 100ms;
+    box-shadow: 1px 3px 3px rgb(117, 116, 116);
+}
+
+.addPost-btn:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.roundedEnd {
+    border-radius: 0% 8px 8px 0%
+}
+
+.roundedStart {
+    border-radius: 8px 0px 0px 8px
+}
+
+.goToPageTopBtn {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.55;
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.card-body {
+    cursor: pointer;
+}
+
+.user-informations-section p {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.user-comments-posts-count span {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.user-comments-posts-count p {
+    font-size: large;
+    font-weight: 100;
+}
+
+.profile-page-link {
+    cursor: pointer !important;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.384);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    margin: auto auto;
+    z-index: 9999;
+    visibility: visible;
+}
